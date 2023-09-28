@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+body{
+    background-color: rgb(10, 219, 247);
+}
+
+.main{
+     width: 100%; 
+     height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    
+}
+#box{
+    /* height: 300px; */
+    /* width: 600px; */ 
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-family: 'Lato', sans-serif;
+    border: 1px solid black;
+    
+}
+h2{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.opton{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#btn{
+    width: 85%;
+    height: 30px;
+    margin-left: 45px;
+    margin-top: 16px;
+    margin-bottom: 10px;
+    background-color: rgb(10, 219, 247);
+    border-radius: 7px;
+    border: none;
+    
+    
+}
